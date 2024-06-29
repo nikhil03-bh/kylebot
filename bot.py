@@ -25,7 +25,7 @@ admins  = [920122047311540294]  #   ID users
 owners  = [920122047311540294]  #          
 methods = ['HTTP-FLOOD', 'HTTP-RAW', 'HTTP-RAND', 'HTTP-SOCKET','CLOUDFLARE','UAM-BYPASS','SLOW'] # Methods
 year_now= datetime.datetime.now().strftime("%Y")     
-token   = '' # paste your token here
+token   = 6717191225:AAH5gVuXDdtjaEgK7l1ipbGkbVdS-2jiUeI
 intents = discord.Intents.default()
 intents.members = True 
 intents.message_content = True
@@ -230,8 +230,8 @@ async def on_ready():
     else:
         system('clear')
     print(banner)
-    print(f'\033[1;97mLogged \033[1;96m{bot.user.name}')
-    print(f'\033[1;97mBot ID: \033[1;97m{bot.user.id}')
+    print(f'\033[1;97mLogged \033[1;96m{@NikzxDdos_bot}')
+    print(f'\033[1;97mBot ID: \033[1;97m{5826987835}')
     print('\033[1;97m=============================================================')
     if str(len(bot.guilds)) == 1:
         await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"{len(bot.guilds)} server!"))
@@ -239,4 +239,4 @@ async def on_ready():
         await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"{len(bot.guilds)} servers!"))
 if __name__ == '__main__':
     init(convert=True)
-    bot.run(token)
+    bot.run(6717191225:AAH5gVuXDdtjaEgK7l1ipbGkbVdS-2jiUeI)
